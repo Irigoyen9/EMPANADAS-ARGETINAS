@@ -3,4 +3,4 @@ Allow: /
 Disallow: /aviso-legal.html
 Disallow: /politica-privacidad.html
 
-Sitemap: https://el-ombu-empanadas.vercel.app/sitemap.xml
+Sitemap: https://empanadas-argentinas-two.vercel.app/sitemap.xml
