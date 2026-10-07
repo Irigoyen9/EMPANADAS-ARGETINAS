@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>document.documentElement.classList.add("js");</script>
+<title>El Ombú | Empanadas argentinas artesanales en el centro de Málaga</title>
+<meta name="description" content="El Ombú, empanadas argentinas hechas 100 % a mano en el centro de Málaga: calle Carretería 86 y calle Victoria 65. Doce sabores desde 3,20 €, para llevar o por encargo. 4,8 estrellas y más de 1.100 reseñas en Google." />
+<link rel="canonical" href="https://el-ombu-empanadas.vercel.app/" />
+<meta name="theme-color" content="#141c18" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="El Ombú | Empanadas argentinas artesanales en Málaga" />
+<meta property="og:description" content="Masa casera, repulgue a mano y doce sabores desde 3,20 €. En calle Carretería y calle Victoria. Encarga por WhatsApp." />
+<meta property="og:image" content="/assets/photos/caja-empanadas.jpg" />
+<meta property="og:locale" content="es_ES" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/assets/photos/caja-empanadas.jpg" />
+
+<link rel="preload" href="assets/fonts/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Wnz6HAc5bAfYB2Q7ZjYY.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+
+<link rel="stylesheet" href="/css/tokens.css" />
+<link rel="stylesheet" href="/css/base.css" />
+<link rel="stylesheet" href="/css/components.css" />
+<link rel="stylesheet" href="/css/animations.css" />
+<link rel="stylesheet" href="/css/ombu.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "El Ombú Empanadas Argentinas",
+  "url": "https://el-ombu-empanadas.vercel.app/",
+  "logo": "https://el-ombu-empanadas.vercel.app/assets/logo/favicon.svg",
+  "sameAs": ["https://www.instagram.com/elombuempanadas/", "https://www.facebook.com/elombu.empanadas/"],
+  "subOrganization": [
+    {
+      "@type": "Restaurant",
+      "name": "El Ombú Empanadas Argentinas · Carretería",
+      "image": "https://el-ombu-empanadas.vercel.app/assets/photos/fachada-carreteria.webp",
+      "telephone": "+34674384559",
+      "servesCuisine": ["Argentina", "Empanadas"],
+      "priceRange": "1-10 €",
+      "address": { "@type": "PostalAddress", "streetAddress": "Calle Carretería, 86", "addressLocality": "Málaga", "postalCode": "29008", "addressCountry": "ES" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "737" },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday"], "opens": "11:00", "closes": "23:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Thursday","Friday","Saturday"], "opens": "10:30", "closes": "24:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:30", "closes": "23:30" }
+      ]
+    },
+    {
+      "@type": "Restaurant",
+      "name": "El Ombú Empanadas Argentinas · Victoria",
+      "telephone": "+34674384559",
+      "servesCuisine": ["Argentina", "Empanadas"],
+      "priceRange": "1-10 €",
+      "address": { "@type": "PostalAddress", "streetAddress": "Calle Victoria, 65", "addressLocality": "Málaga", "postalCode": "29012", "addressCountry": "ES" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "370" }
+    }
+  ]
+}
+</script>
+</head>
+<body class="has-photo-hero">
+
+<div class="loader" aria-hidden="true">
+  <div><div class="loader__sign">El Ombú</div><span class="loader__line"></span></div>
+</div>
+<div class="scroll-progress" aria-hidden="true"></div>
+
+<header class="header">
+  <a href="/" class="brand" aria-label="El Ombú, inicio">
+    <span class="brand__name"><svg class="brand__tree" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><circle cx="32" cy="22" r="11"/><circle cx="20" cy="27" r="9"/><circle cx="44" cy="27" r="9"/><circle cx="25" cy="17" r="7"/><circle cx="39" cy="17" r="7"/><circle cx="32" cy="31" r="8"/><path d="M29.5 32h5l1 13c3 2 7 3 10 3v3H18.5v-3c3 0 7-1 10-3z"/></svg>El Ombú</span>
+    <span class="brand__tag">Empanadas artesanales</span>
+  </a>
+  <nav class="header__nav" id="siteNav">
+    <a href="/" aria-current="page">Inicio</a>
+    <a href="/#sabores">Sabores</a>
+    <a href="/carta.html">Carta</a>
+    <a href="/galeria.html">Galería</a>
+    <a href="/#tiendas">Tiendas</a>
+    <a href="/encargar.html">Encargar</a>
+  </nav>
+  <div class="header__actions">
+    <a class="icon-btn" href="https://www.instagram.com/elombuempanadas/" target="_blank" rel="noopener" aria-label="Instagram de El Ombú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+    <a class="btn btn--rojo btn--sm" href="/encargar.html" data-magnetic>Encargar</a>
+    <button class="header__nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="siteNav"><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero hero--foto">
+  <picture class="hero__bg" aria-hidden="true">
+    <source media="(max-width: 760px)" srcset="/assets/photos/hero-ombu-movil.webp" />
+    <img src="/assets/photos/hero-ombu.webp" alt="" width="1376" height="768" fetchpriority="high" />
+  </picture>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow hero__eyebrow">Empanadas argentinas · Málaga centro</p>
+      <h1 class="hero__title" data-letters>El Ombú</h1>
+      <p class="hero__claim" data-words>Masa casera, repulgue a mano y horno de verdad.</p>
+      <p class="hero__subtitle">Doce sabores hechos 100&nbsp;% a mano en nuestras dos tiendas del centro, en calle Carretería y calle Victoria. Para llevar, para la oficina o para la juntada con amigos.</p>
+      <div class="hero__actions">
+        <a class="btn btn--wa" data-wa href="https://api.whatsapp.com/send?phone=34674384559" data-magnetic><svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67a8.2 8.2 0 0 1 5.83 2.42 8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.25 8.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.19-.31a8.18 8.18 0 0 1-1.26-4.37c0-4.55 3.7-8.25 8.24-8.25M8.53 6.7c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.16 1.7 2.72 4.2 3.7 2.07.82 2.49.66 2.94.62.45-.04 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.97-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.42-.55-.42h-.47Z"/></svg> Encargar por WhatsApp</a>
+        <a class="btn btn--ig" href="https://www.instagram.com/elombuempanadas/" target="_blank" rel="noopener" data-magnetic><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg> Ver Instagram</a>
+        <a class="btn btn--light" href="#sabores" data-magnetic>Ver sabores</a>
+      </div>
+      <div class="hero__trust">
+        <a class="rating-chip" href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Carreter%C3%ADa+86+M%C3%A1laga" target="_blank" rel="noopener">
+          <span class="rating-chip__g"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg></span>
+          <span><strong>4,8</strong> <span class="stars">★★★★★</span> · 737 reseñas</span>
+        </a>
+        <span class="hero__trust-text">Y 4,9 en calle Victoria</span>
+      </div>
+    </div>
+  </div>
+  <p class="hero__caption">Recién salidas del horno</p>
+  <span class="hero__scroll" aria-hidden="true"></span>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Carne cortada a cuchillo</span><span>Ternera picante</span><span>Jamón y quesos</span><span>Humita</span><span>Chorizo ibérico</span><span>Caprese</span><span>Espinaca</span><span>Cuatro quesos</span>
+    <span>Carne cortada a cuchillo</span><span>Ternera picante</span><span>Jamón y quesos</span><span>Humita</span><span>Chorizo ibérico</span><span>Caprese</span><span>Espinaca</span><span>Cuatro quesos</span>
+  </div>
+</div>
+<div class="marquee marquee--rojo" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Hechas a mano</span><span>Para llevar</span><span>Carretería 86</span><span>Victoria 65</span><span>Málaga</span>
+    <span>Hechas a mano</span><span>Para llevar</span><span>Carretería 86</span><span>Victoria 65</span><span>Málaga</span>
+    <span>Hechas a mano</span><span>Para llevar</span><span>Carretería 86</span><span>Victoria 65</span><span>Málaga</span>
+  </div>
+</div>
+
+<section class="section" id="ombu">
+  <div class="container split">
+    <div class="reveal">
+      <p class="eyebrow">La casa</p>
+      <h2>Un árbol de la Pampa <em>en pleno centro</em> de Málaga</h2>
+      <p>El ombú es el árbol de la llanura argentina: grande, generoso y con una sombra donde siempre cabe uno más. De ahí sale el nombre de esta casa, que empezó en un local pequeño de calle Carretería y hoy tiene una segunda tienda en calle Victoria.</p>
+      <p>Aquí la masa es casera. Rellenamos con ingredientes de primera, cerramos cada empanada a mano y la horneamos. Cada sabor lleva su propio repulgue, el cierre trenzado del borde, así que sabes cuál es cuál sin abrir la caja.</p>
+      <p class="signature">hechas a mano, una a una</p>
+      <div class="stats">
+        <div class="stat"><div class="stat__num" data-count="4.8" data-decimals="1">4,8</div><div class="stat__label">Nota en Google</div></div>
+        <div class="stat"><div class="stat__num" data-count="1107">1.107</div><div class="stat__label">Reseñas</div></div>
+        <div class="stat"><div class="stat__num" data-count="12">12</div><div class="stat__label">Sabores</div></div>
+        <div class="stat"><div class="stat__num" data-count="2">2</div><div class="stat__label">Tiendas</div></div>
+      </div>
+    </div>
+    <div class="depth-stack reveal-3d" aria-hidden="true">
+      <div class="depth-stack__inner">
+        <div class="depth-stack__layer depth-stack__layer--back"><img src="/assets/photos/fachada-carreteria.webp" alt="" loading="lazy" /></div>
+        <div class="depth-stack__layer depth-stack__layer--mid"><img src="/assets/photos/caja-foto.webp" alt="" loading="lazy" /></div>
+        <div class="depth-stack__layer depth-stack__layer--front"><img src="/assets/photos/ternera.webp" alt="" loading="lazy" /></div>
+        <span class="depth-stack__sticker">100&nbsp;% a mano</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="toldo" aria-hidden="true"><span>Empanadas artesanales · El Ombú · Para llevar</span></div>
+
+<section class="section section--arena" id="sabores">
+  <div class="container menu-dia">
+    <div class="menu-dia__copy reveal">
+      <p class="eyebrow">Los sabores</p>
+      <h2>Doce sabores, <em>desde 3,20&nbsp;€</em></h2>
+      <p>Ocho clásicos de toda la vida y cuatro especiales de la casa, escritos con tiza como en la pizarra de la tienda. Pide una para el camino o llévate la caja entera para compartir.</p>
+      <p>Si vas a por muchas o las quieres a una hora concreta, encárgalas por WhatsApp y te las tenemos listas.</p>
+      <div class="menu-dia__actions">
+        <a class="btn btn--rojo" href="/encargar.html" data-magnetic>Hacer un encargo</a>
+        <a class="btn btn--outline" href="/carta.html" data-magnetic>Ver la carta</a>
+      </div>
+    </div>
+    <div class="pizarra-scene reveal-3d">
+      <div class="pizarra" data-tilt="6">
+        <span class="pizarra__price"><span><small>desde</small><strong>3,20&nbsp;€</strong></span></span>
+        <p class="pizarra__title">Empanadas</p>
+        <p class="pizarra__sub">artesanales</p>
+        <div class="pizarra__block">
+          <h3>Clásicas · 3,20&nbsp;€</h3>
+          <ul class="pizarra__cols"><li>Carne cortada a cuchillo</li><li>Pollo</li><li>Jamón y quesos</li><li>Setas</li><li>Caprese</li><li>Cebolla y queso</li><li>Espinaca</li><li>Humita</li></ul>
+        </div>
+        <div class="pizarra__block">
+          <h3>Especiales · 3,50&nbsp;€</h3>
+          <ul class="pizarra__cols"><li>Ternera picante</li><li>Chorizo ibérico</li><li>Cuatro quesos</li><li>Atún</li></ul>
+        </div>
+        <div class="pizarra__foot">
+          <span class="pizarra__incl">opciones vegetarianas</span>
+        </div>
+      </div>
+      <p class="pizarra__note">Precios de la carta online. Pueden variar en tienda.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="favoritas">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Las que más salen</p>
+      <h2>Abiertas por la mitad, <em>para que veas el relleno</em></h2>
+      <p>Así son por dentro algunas de las favoritas. La carta completa tiene doce sabores.</p>
+    </div>
+    <div class="service-grid">
+      <a class="service-card reveal-3d" data-tilt="7" href="/carta.html#clasicas">
+        <span class="service-card__glare"></span>
+        <div class="service-card__media"><img src="/assets/photos/ternera.webp" alt="Empanada de carne de ternera abierta sobre su caja" loading="lazy" /><span class="service-card__num">01</span></div>
+        <div class="service-card__body"><h3>Carne cortada a cuchillo</h3><p>Ternera cortada a cuchillo en su reducción de pimiento rojo y cebolla, con puerro, huevo y aceitunas verdes. La de siempre.</p><span class="service-card__link">Ver la carta</span></div>
+      </a>
+      <a class="service-card reveal-3d reveal-delay-1" data-tilt="7" href="/carta.html#especiales">
+        <span class="service-card__glare"></span>
+        <div class="service-card__media"><img src="/assets/photos/ternera-picante.webp" alt="Dos mitades de empanada de ternera picante" loading="lazy" /><span class="service-card__num">02</span></div>
+        <div class="service-card__body"><h3>Ternera picante</h3><p>La misma carne a cuchillo con guindilla de cayena, chile rojo y pimentón picante. Para los valientes.</p><span class="service-card__link">Ver la carta</span></div>
+      </a>
+      <a class="service-card reveal-3d reveal-delay-2" data-tilt="7" href="/carta.html#clasicas">
+        <span class="service-card__glare"></span>
+        <div class="service-card__media"><img src="/assets/photos/jamon-quesos.webp" alt="Empanada de jamón y quesos abierta" loading="lazy" /><span class="service-card__num">03</span></div>
+        <div class="service-card__body"><h3>Jamón y quesos</h3><p>Jamón extra cocido y una mezcla de quesos con especias que se estira al morder.</p><span class="service-card__link">Ver la carta</span></div>
+      </a>
+      <a class="service-card reveal-3d" data-tilt="7" href="/carta.html#clasicas">
+        <span class="service-card__glare"></span>
+        <div class="service-card__media"><img src="/assets/photos/humita.webp" alt="Empanada de humita sobre tabla de pizarra" loading="lazy" /><span class="service-card__num">04</span></div>
+        <div class="service-card__body"><h3>Humita</h3><p>Maíz dulce rallado con cebolla, pimiento rojo y bechamel. El sabor más argentino de la pizarra.</p><span class="service-card__link">Ver la carta</span></div>
+      </a>
+      <a class="service-card reveal-3d reveal-delay-1" data-tilt="7" href="/carta.html#especiales">
+        <span class="service-card__glare"></span>
+        <div class="service-card__media"><img src="/assets/photos/chorizo-iberico.webp" alt="Empanada de chorizo ibérico con rúcula y mozzarella" loading="lazy" /><span class="service-card__num">05</span></div>
+        <div class="service-card__body"><h3>Chorizo ibérico</h3><p>Chorizo ibérico, rúcula, ciruela deshidratada y mozzarella. Argentina y Málaga en el mismo bocado.</p><span class="service-card__link">Ver la carta</span></div>
+      </a>
+      <a class="service-card reveal-3d reveal-delay-2" data-tilt="7" href="/carta.html#clasicas">
+        <span class="service-card__glare"></span>
+        <div class="service-card__media"><img src="/assets/photos/espinaca.webp" alt="Empanada de espinaca con bechamel abierta" loading="lazy" /><span class="service-card__num">06</span></div>
+        <div class="service-card__body"><h3>Espinaca</h3><p>Espinacas frescas con bechamel suave y mozzarella. Vegetariana y de las más pedidas.</p><span class="service-card__link">Ver la carta</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Cómo las quieres</p>
+      <h2>Una para el camino <em>o la caja entera</em></h2>
+      <p>Tres formas de llevarte El Ombú. Pasa el ratón (o toca) para darles la vuelta.</p>
+    </div>
+    <div class="flip-grid">
+      <div class="flip-card reveal-3d" tabindex="0">
+        <div class="flip-card__inner">
+          <div class="flip-card__face flip-card__front">
+            <img src="/assets/photos/cesta.webp" alt="Cesta de empanadas recién horneadas" loading="lazy" />
+            <span class="flip-card__time">En la tienda</span>
+            <h3>Para llevar</h3>
+            <span class="flip-card__turn">Dale la vuelta ↻</span>
+          </div>
+          <div class="flip-card__face flip-card__back">
+            <span class="script">entra, elige y listo</span>
+            <h3>Para llevar</h3>
+            <ul><li>Calle Carretería 86</li><li>Calle Victoria 65</li><li>Calentitas del horno</li><li>Carretería abre todos los días</li></ul>
+            <a class="btn btn--dark btn--sm" href="#tiendas">Ver tiendas</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card reveal-3d reveal-delay-1" tabindex="0">
+        <div class="flip-card__inner">
+          <div class="flip-card__face flip-card__front">
+            <img src="/assets/photos/caja-empanadas.webp" alt="Caja de cartón llena de empanadas" loading="lazy" />
+            <span class="flip-card__time">Por WhatsApp</span>
+            <h3>Por encargo</h3>
+            <span class="flip-card__turn">Dale la vuelta ↻</span>
+          </div>
+          <div class="flip-card__face flip-card__back">
+            <span class="script">para la juntada</span>
+            <h3>Por encargo</h3>
+            <ul><li>Docenas para reuniones</li><li>Comidas de oficina</li><li>Cumpleaños y partidos</li><li>Recogida a tu hora</li></ul>
+            <a class="btn btn--dark btn--sm" href="/encargar.html">Hacer encargo</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card reveal-3d reveal-delay-2" tabindex="0">
+        <div class="flip-card__inner">
+          <div class="flip-card__face flip-card__front">
+            <img src="/assets/photos/combo.webp" alt="Empanada y refresco junto a la caja" loading="lazy" />
+            <span class="flip-card__time">En Glovo</span>
+            <h3>A domicilio</h3>
+            <span class="flip-card__turn">Dale la vuelta ↻</span>
+          </div>
+          <div class="flip-card__face flip-card__back">
+            <span class="script">sin moverte del sofá</span>
+            <h3>A domicilio</h3>
+            <ul><li>Pack individual: 3 y bebida</li><li>Pack para 2: 6 y 2 bebidas</li><li>Pack familiar: 12</li><li>Pack grupal: 20</li></ul>
+            <a class="btn btn--dark btn--sm" href="https://glovoapp.com/es/es/malaga/stores/el-ombu-empanadas-argentinas-malaga" target="_blank" rel="noopener">Pedir en Glovo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Del horno a la caja</p>
+      <h2>Una vuelta por <em>El Ombú</em></h2>
+    </div>
+    <div class="carousel3d reveal-zoom">
+      <div class="carousel3d__ring">
+        <figure class="carousel3d__card"><img src="/assets/photos/caja-empanadas.webp" alt="Caja de empanadas recién horneadas" loading="lazy" /><figcaption><span class="carousel3d__tag">Recién hechas</span><h3>La caja</h3></figcaption></figure>
+        <figure class="carousel3d__card"><img src="/assets/photos/caprese.webp" alt="Empanada caprese abierta" loading="lazy" /><figcaption><span class="carousel3d__tag">Clásica</span><h3>Caprese</h3></figcaption></figure>
+        <figure class="carousel3d__card"><img src="/assets/photos/fachada-carreteria.webp" alt="Fachada de El Ombú en calle Carretería" loading="lazy" style="object-position: 50% 30%" /><figcaption><span class="carousel3d__tag">Carretería 86</span><h3>Donde empezó todo</h3></figcaption></figure>
+        <figure class="carousel3d__card"><img src="/assets/photos/pollo.webp" alt="Empanada en las manos" loading="lazy" /><figcaption><span class="carousel3d__tag">A mano</span><h3>Una a una</h3></figcaption></figure>
+        <figure class="carousel3d__card"><img src="/assets/photos/setas.webp" alt="Empanada de setas abierta" loading="lazy" /><figcaption><span class="carousel3d__tag">Vegetariana</span><h3>Setas</h3></figcaption></figure>
+        <figure class="carousel3d__card"><img src="/assets/photos/caja-foto.webp" alt="Foto con el móvil a una caja de empanadas" loading="lazy" /><figcaption><span class="carousel3d__tag">Para compartir</span><h3>La juntada</h3></figcaption></figure>
+        <figure class="carousel3d__card"><img src="/assets/photos/cuatro-quesos.webp" alt="Empanada de cuatro quesos" loading="lazy" /><figcaption><span class="carousel3d__tag">Especial</span><h3>Cuatro quesos</h3></figcaption></figure>
+      </div>
+      <div class="carousel3d__floor"></div>
+    </div>
+    <div class="carousel3d__controls">
+      <button class="carousel3d__btn" type="button" data-carousel-prev aria-label="Foto anterior">←</button>
+      <button class="carousel3d__btn" type="button" data-carousel-next aria-label="Foto siguiente">→</button>
+    </div>
+    <p class="carousel3d__hint">Arrastra para girar</p>
+  </div>
+</section>
+
+<section class="section section--arena">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Por qué vuelven</p>
+      <h2>Lo artesano <em>se nota</em></h2>
+    </div>
+    <div class="promise-grid">
+      <div class="promise reveal-3d">
+        <div class="promise__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 15a9 9 0 0 1 18 0z"/><path d="M5 15c.5-1 1-1 1.5 0s1 1 1.5 0 1-1 1.5 0 1 1 1.5 0 1-1 1.5 0 1 1 1.5 0 1-1 1.5 0 1 1 1.5 0"/></svg></div>
+        <h3>Masa casera</h3><p>La masa la hacemos nosotros. Nada de tapas compradas.</p>
+      </div>
+      <div class="promise reveal-3d reveal-delay-1">
+        <div class="promise__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 11V5a1.5 1.5 0 0 1 3 0v5M10 10V4a1.5 1.5 0 0 1 3 0v6M13 10V5a1.5 1.5 0 0 1 3 0v6M16 11V8a1.5 1.5 0 0 1 3 0v6a7 7 0 0 1-7 7h-1a6 6 0 0 1-5-2.7L4 15a1.5 1.5 0 0 1 2.5-1.6L7 14"/></svg></div>
+        <h3>Repulgue a mano</h3><p>Cada sabor tiene su cierre. Lo reconoces sin abrir la caja.</p>
+      </div>
+      <div class="promise reveal-3d reveal-delay-2">
+        <div class="promise__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3c2 3 5 5 5 9a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-5 1-7.5z"/></svg></div>
+        <h3>Al horno</h3><p>Horneadas, no fritas. Doradas por fuera y jugosas por dentro.</p>
+      </div>
+      <div class="promise reveal-3d reveal-delay-3">
+        <div class="promise__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 20c-2-4 0-9 5-12 1 3 4 4 5 8a5 5 0 0 1-10 4z"/><path d="M12 8c0-2 1-4 3-5"/></svg></div>
+        <h3>Para todos</h3><p>Opciones vegetarianas como caprese, espinaca, setas, humita o cebolla y queso.</p>
+      </div>
+    </div>
+
+    <div class="quotes">
+      <blockquote class="quote reveal-3d">
+        <p>Después de probar empanadas de varios lugares, puedo decir con sinceridad que estas fueron mis favoritas.</p>
+        <footer><span>Reseña en Google</span><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="quote reveal-3d reveal-delay-1">
+        <p>Las empanadas estaban buenísimas y las chicas que las vendían y horneaban eran muy amables.</p>
+        <footer><span>Reseña en Google</span><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="quote reveal-3d reveal-delay-2">
+        <p>Una de las mejores empanadas que he comido nunca.</p>
+        <footer><span>Opinión en Tripadvisor</span><span class="stars">★★★★★</span></footer>
+      </blockquote>
+    </div>
+
+    <div class="google-cards reveal">
+      <a class="google-card" href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Carreter%C3%ADa+86+M%C3%A1laga" target="_blank" rel="noopener">
+        <div class="google-card__score">4,8</div>
+        <div>
+          <div class="google-card__stars stars">★★★★★</div>
+          <p><strong>737 opiniones</strong> en la tienda de calle Carretería.</p>
+        </div>
+        <span class="btn btn--outline btn--sm">Leer reseñas</span>
+      </a>
+      <a class="google-card" href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Calle+Victoria+65+M%C3%A1laga" target="_blank" rel="noopener">
+        <div class="google-card__score">4,9</div>
+        <div>
+          <div class="google-card__stars stars">★★★★★</div>
+          <p><strong>370 opiniones</strong> en la tienda de calle Victoria.</p>
+        </div>
+        <span class="btn btn--outline btn--sm">Leer reseñas</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="tiendas">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Dos tiendas en el centro</p>
+      <h2>Ven a por ellas <em>calentitas</em></h2>
+      <p>Las dos en el centro de Málaga: una junto al río, en Carretería, y otra subiendo por calle Victoria.</p>
+    </div>
+    <div class="visit-grid">
+      <div class="reveal">
+        <div class="shop-card">
+          <div class="shop-card__head"><h3>Calle Carretería</h3><span class="open-status" data-shop="carreteria">Horario</span></div>
+          <table class="hours-table">
+            <tr data-days="1,2,3"><td>Lunes a miércoles</td><td>11:00 a 23:30</td></tr>
+            <tr data-days="4,5,6"><td>Jueves a sábado</td><td>10:30 a 00:00</td></tr>
+            <tr data-days="0"><td>Domingo</td><td>10:30 a 23:30</td></tr>
+          </table>
+          <a class="shop-card__addr" href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Carreter%C3%ADa+86+M%C3%A1laga" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg> C. Carretería, 86 · 29008 Málaga</a>
+        </div>
+        <div class="shop-card">
+          <div class="shop-card__head"><h3>Calle Victoria</h3><span class="shop-card__badge">4,9 ★</span></div>
+          <p class="shop-card__text">Nuestra segunda tienda, la de la fachada verde. Consulta su horario del día en Google Maps.</p>
+          <a class="shop-card__addr" href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Calle+Victoria+65+M%C3%A1laga" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg> C. Victoria, 65 · 29012 Málaga</a>
+        </div>
+        <div class="contact-list">
+          <a href="tel:+34674384559"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span> 674 38 45 59</a>
+          <a data-wa href="https://api.whatsapp.com/send?phone=34674384559"><span class="icon"><svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67a8.2 8.2 0 0 1 5.83 2.42 8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.25 8.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.19-.31a8.18 8.18 0 0 1-1.26-4.37c0-4.55 3.7-8.25 8.24-8.25M8.53 6.7c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.16 1.7 2.72 4.2 3.7 2.07.82 2.49.66 2.94.62.45-.04 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.97-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.42-.55-.42h-.47Z"/></svg></span> Encargar por WhatsApp</a>
+          <a href="https://www.instagram.com/elombuempanadas/" target="_blank" rel="noopener"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span> @elombuempanadas</a>
+        </div>
+      </div>
+      <iframe class="map-frame reveal" title="Mapa de las tiendas de El Ombú en el centro de Málaga" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://www.google.com/maps?q=El+Omb%C3%BA+Empanadas+Argentinas,+Calle+Carreter%C3%ADa+86,+29008+M%C3%A1laga&amp;output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="/" class="brand"><span class="brand__name"><svg class="brand__tree" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><circle cx="32" cy="22" r="11"/><circle cx="20" cy="27" r="9"/><circle cx="44" cy="27" r="9"/><circle cx="25" cy="17" r="7"/><circle cx="39" cy="17" r="7"/><circle cx="32" cy="31" r="8"/><path d="M29.5 32h5l1 13c3 2 7 3 10 3v3H18.5v-3c3 0 7-1 10-3z"/></svg>El Ombú</span><span class="brand__tag">Empanadas artesanales</span></a>
+      <p>Empanadas argentinas hechas a mano en el centro de Málaga. Para llevar, por encargo y a domicilio.</p>
+      <div class="footer__social">
+        <a class="icon-btn" href="https://www.instagram.com/elombuempanadas/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Explora</h4>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/carta.html">Carta</a></li>
+        <li><a href="/galeria.html">Galería</a></li>
+        <li><a href="/encargar.html">Hacer un encargo</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Tiendas</h4>
+      <ul>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Carreter%C3%ADa+86+M%C3%A1laga" target="_blank" rel="noopener">C. Carretería, 86</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=El+Omb%C3%BA+Empanadas+Argentinas+Calle+Victoria+65+M%C3%A1laga" target="_blank" rel="noopener">C. Victoria, 65</a></li>
+        <li><a href="tel:+34674384559">674 38 45 59</a></li>
+        <li><a data-wa href="https://api.whatsapp.com/send?phone=34674384559">WhatsApp</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Horario Carretería</h4>
+      <ul>
+        <li>Lunes a miércoles · 11:00 a 23:30</li>
+        <li>Jueves a sábado · 10:30 a 00:00</li>
+        <li>Domingo · 10:30 a 23:30</li>
+      </ul>
+    </div>
+  </div>
+  <span class="footer__wordmark" aria-hidden="true">El Ombú</span>
+  <div class="container footer__bottom">
+    <span>© <span data-year></span> El Ombú Empanadas Argentinas · Málaga</span>
+    <span><a href="/aviso-legal.html">Aviso legal</a> · <a href="/politica-privacidad.html">Privacidad</a></span>
+  </div>
+</footer>
+
+<div class="float-stack">
+  <a class="float-btn float-btn--ig" href="https://www.instagram.com/elombuempanadas/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+  <a class="float-btn float-btn--wa" data-wa href="https://api.whatsapp.com/send?phone=34674384559" aria-label="Encargar por WhatsApp"><svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67a8.2 8.2 0 0 1 5.83 2.42 8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.25 8.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.19-.31a8.18 8.18 0 0 1-1.26-4.37c0-4.55 3.7-8.25 8.24-8.25M8.53 6.7c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.16 1.7 2.72 4.2 3.7 2.07.82 2.49.66 2.94.62.45-.04 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.97-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.42-.55-.42h-.47Z"/></svg><span>Encargar</span></a>
+</div>
+
+<script src="/js/whatsapp.js" defer></script>
+<script src="/js/main.js" defer></script>
+<script>/* optimizar-web: mapas diferidos */
+(function(){var f=document.querySelectorAll("iframe[data-src]");if(!f.length)return;
+function go(el){el.src=el.getAttribute("data-src");el.removeAttribute("data-src");}
+if(!("IntersectionObserver" in window)){f.forEach(go);return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){go(e.target);io.unobserve(e.target);}});},{rootMargin:"200px"});
+f.forEach(function(el){io.observe(el);});})();</script></body>
+</html>

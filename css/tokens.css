@@ -1,0 +1,58 @@
+:root {
+  /* Colores de marca: sacados de las dos tiendas de El Ombú en Málaga
+     (rótulo negro con el árbol blanco en Carretería, fachada verde botella
+     en calle Victoria), el dorado de la masa recién horneada, el cartón
+     kraft de las cajas y un toque celeste argentino.
+     Los nombres vienen de la base común de estas webs: --rojo es aquí el
+     color principal de la marca (verde ombú). */
+  --pizarra: #141c18;
+  --pizarra-suave: #26302b;
+  --cal: #faf5ec;
+  --cal-suave: #f4ecdf;
+  --arena: #efe2cc;
+  --rojo: #1e4a37;
+  --rojo-oscuro: #133426;
+  --rojo-claro: #2e6a50;
+  --miel: #e4a453;
+  --miel-brillo: #f6d7a6;
+  --madera: #a9682a;
+  --madera-clara: #d79a55;
+  --naranja: #d9822f;
+  --oliva: #5f7a3e;
+  --celeste: #74acdf;
+  --kraft: #c9a77c;
+  --blanco: #fffcf6;
+  --texto-suave: #5f5a50;
+  --whatsapp: #25d366;
+  --whatsapp-oscuro: #1da851;
+
+  /* Degradados */
+  --grad-madera: linear-gradient(120deg, #9a5d22 0%, #f0c07a 40%, #b8732c 65%, #e4a453 100%);
+  --grad-calido: linear-gradient(135deg, #fbf0de 0%, #f1d3a2 55%, #e2a868 100%);
+  --grad-instagram: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+
+  /* Tipografía: palo seco con carácter, como el rótulo de la tienda,
+     y letra de tiza para las pizarras de sabores */
+  --font-script: "Caveat", "Segoe Print", cursive;
+  --font-display: "Bricolage Grotesque", "Segoe UI", Arial, sans-serif;
+  --font-body: "Bricolage Grotesque", "Segoe UI", Arial, sans-serif;
+
+  /* Espaciado */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 7rem;
+
+  /* Layout */
+  --max-width: 1280px;
+  --radius: 14px;
+  --radius-lg: 26px;
+  --shadow-card: 0 24px 50px -18px rgba(20, 28, 24, 0.4);
+  --shadow-soft: 0 10px 30px -12px rgba(20, 28, 24, 0.28);
+  --shadow-madera: 0 14px 34px -12px rgba(169, 104, 42, 0.55);
+  --shadow-rojo: 0 14px 30px -12px rgba(30, 74, 55, 0.6);
+
+  /* Transiciones */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

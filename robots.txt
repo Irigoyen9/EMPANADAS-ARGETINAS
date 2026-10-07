@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /aviso-legal.html
+Disallow: /politica-privacidad.html
+
+Sitemap: https://el-ombu-empanadas.vercel.app/sitemap.xml
